@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.mt1{margin-top: 8px;}
+.mb1{margin-bottom: 8px;}
+.mb2{margin-bottom: 16px;}
+.mb3{margin-bottom: 24px;}
+.mb5{margin-bottom: 40px;}
+.mb6{margin-bottom: 48px;}
+.mb9{margin-bottom: 72px;}
+.mr1{margin-right: 8px;}
+.pb1{padding-bottom: 8px;}
+.block{display:block;}
+.w{width: 642px;line-height: 30px;}
+
+
+.wrap{
+    font-size: 24px;
+    line-height: 36px;
+	max-width: 1920px;
+	margin: 0 auto;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight:medium;
+}
+.h1{
+	font-size: 80px;
+	line-height: 94px;
+	border-bottom: 2px solid #000;	
+	padding-bottom: 17px;
+	margin-top: 47px;
+	font-family: 'Roboto-Regular';
+	font-weight: 400;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.subtitle{
+	font-size:36px;
+	line-height: 45px;
+	border-bottom: 1px solid #000;
+	padding-bottom:8px;
+}
+.subtitle span{
+	color:#A00404;
+	font-size: 24px;
+	line-height:28px;
+	margin-left: 16px;
+	font-family: 'Roboto';
+	font-weight: 400;
+}
+.darkblue{
+	background:#415165;
+	color: white;
+	padding-top: 24px;
+	padding-bottom: 36px;
+
+}
+.skills{
+	width: 996px;
+	margin: 0 auto;	
+}
+.subtitle-white{
+	font-size: 36px;
+	line-height: 45px;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.subtitle-white span{
+	font-size: 24px;
+	line-height: 28px;
+	margin-left: 16px;
+	color: white;
+}
+.skills_content{
+	width: 192px;
+	margin: 0 auto;
+	border-left: 1px solid #96A9C4;
+	padding-left: 24px;
+
+}
+.skills_content li{
+	margin-bottom: 20px;
+	width: 300px;
+	font-family: 'Roboto';
+	font-weight: 100;
+	font-weight:100;
+
+}
+.we{
+	padding-left: 24px;
+}
+.ww{
+	padding-left: 24px;
+	font-family: 'Roboto-Regular';
+	font-weight: 400;
+	border-left: 1px solid #96A9C4;
+}
+.method{
+	text-align: center;
+	font-family: 'Roboto-Regular';
+	font-weight: 100;
+}
+.footer{
+	width: 1200px;
+	margin: 0 auto;
+}
